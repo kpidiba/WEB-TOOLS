@@ -43,6 +43,10 @@ Voici la liste des outils inclus dans ce dépôt :
   # Télécharger le binaire depuis : https://download.ngrok.com/downloads/
   ```
 
+## 2. [COOLORS](https://coolors.co/)
+
+**Coolors** is a fast and intuitive color palette generator loved by designers and developers. Whether you're creating a new brand, designing a website, or refreshing your UI, Coolors helps you discover perfect color combinations in seconds. You can explore trending palettes, adjust hues with precision, and even export in multiple formats (PNG, SCSS, SVG, etc.). Ideal for inspiring creativity and maintaining color consistency in any project.
+
 ## 🙌 Contributions
 
 Ce projet est ouvert aux contributions ! Si vous avez des suggestions ou souhaitez ajouter d'autres outils, n'hésitez pas à soumettre une [issue](https://github.com/username/repository/issues) ou une pull request.
