@@ -47,6 +47,77 @@ Voici la liste des outils inclus dans ce dépôt :
 
 **Coolors** is a fast and intuitive color palette generator loved by designers and developers. Whether you're creating a new brand, designing a website, or refreshing your UI, Coolors helps you discover perfect color combinations in seconds. You can explore trending palettes, adjust hues with precision, and even export in multiple formats (PNG, SCSS, SVG, etc.). Ideal for inspiring creativity and maintaining color consistency in any project.
 
+---
+
+### 3. 🐋 NGINX
+
+**NGINX** est un serveur web haute performance, un reverse proxy et un équilibreur de charge. Il est largement utilisé pour :
+
+- Servir des sites web statiques et dynamiques
+
+- Gérer le load balancing entre plusieurs serveurs backend
+
+- Configurer un reverse proxy pour des applications web
+
+- Gérer le cache HTTP et la compression
+
+- Sécuriser les applications avec SSL/TLS
+
+#### 📚 Documentation rapide :
+
+- **Site officiel** : [nginx.org](https://nginx.org/)
+
+- **Installation** :
+
+```bash
+# Pour Ubuntu/Debian
+sudo apt update
+sudo apt install nginx
+
+# Pour CentOS/RHEL
+sudo yum install epel-release
+sudo yum install nginx
+
+# Pour MacOS avec Homebrew
+brew install nginx
+
+# Pour Windows
+# Télécharger depuis : https://nginx.org/en/download.html
+```
+
+**Commandes utiles** :
+
+```bash
+# Démarrer NGINX
+sudo systemctl start nginx
+
+# Arrêter NGINX
+sudo systemctl stop nginx
+
+# Redémarrer NGINX
+sudo systemctl restart nginx
+
+# Recharger la configuration sans interruption
+sudo systemctl reload nginx
+
+# Vérifier l'état
+sudo systemctl status nginx
+
+# Tester la configuration
+sudo nginx -t
+```
+
+**Fichiers de configuration principaux** :
+
+```json
+/etc/nginx/nginx.conf           # Configuration principale
+/etc/nginx/sites-available/     # Sites disponibles
+/etc/nginx/sites-enabled/       # Sites activés
+/var/log/nginx/                 # Fichiers de logs
+```
+
+
+
 ## 🙌 Contributions
 
 Ce projet est ouvert aux contributions ! Si vous avez des suggestions ou souhaitez ajouter d'autres outils, n'hésitez pas à soumettre une [issue](https://github.com/username/repository/issues) ou une pull request.
