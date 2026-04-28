@@ -47,8 +47,6 @@ Voici la liste des outils inclus dans ce dépôt :
 
 **Coolors** is a fast and intuitive color palette generator loved by designers and developers. Whether you're creating a new brand, designing a website, or refreshing your UI, Coolors helps you discover perfect color combinations in seconds. You can explore trending palettes, adjust hues with precision, and even export in multiple formats (PNG, SCSS, SVG, etc.). Ideal for inspiring creativity and maintaining color consistency in any project.
 
----
-
 ### 3. 🐋 NGINX
 
 **NGINX** est un serveur web haute performance, un reverse proxy et un équilibreur de charge. Il est largement utilisé pour :
@@ -115,8 +113,6 @@ sudo nginx -t
 /etc/nginx/sites-enabled/       # Sites activés
 /var/log/nginx/                 # Fichiers de logs
 ```
-
-
 
 ## 🙌 Contributions
 
